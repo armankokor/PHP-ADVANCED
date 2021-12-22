@@ -48,7 +48,7 @@ $persoon["leeftijd"]   = 51;
 
 Dan verandert direct ook de uitkomst van de zin.
 
-> "Edwin Van der Sar is al jaren actief bij Ajax"
+> "Edwin Van der Sar is al jaren actief bij Ajax"o
 
 ## Leerdoelen
 
