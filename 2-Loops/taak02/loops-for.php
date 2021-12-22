@@ -9,11 +9,11 @@
 <body>
 <?php
 echo "<ul>";
-for($loop = 0; $loop < 18; $loop++){
-	echo "<li> ik ben $loop jaar, dus ik heb geen stemrecht. </li>";
+for($leeftijd = 0; $leeftijd < 18; $leeftijd++){
+	echo "<li> ik ben $leeftijd jaar, dus ik heb geen stemrecht. </li>";
 }
-for($loop = 18; $loop < 19; $loop++){
-	echo " <li>Ik ben $loop jaar oud dus ik heb stemrecht.</li>";
+for($loop = 18; $leeftijd < 19; $leeftijd++){
+	echo " <li>Ik ben $leeftijd jaar oud dus ik heb stemrecht.</li>";
 }
 echo "</ul>";
 ?>
