@@ -9,15 +9,15 @@
 </head>
 <body>
 
-<form class= "Form" method="GET" action="mijnmuziek2.php">
+<form method="GET" action="mijnmuziek2.php">
 
-<p>Artiest <input name="Artist"></p>
+Artiest <input name="Artiest"> <br>
 
-<p>Titel <input name="Titel"></p>
+Titel <input name="Titel"> <br>
 
-<p>Jaar van uitgave <input name="Year"></p>
+Jaar van uitgave <input name="JAAR"> <br>
 
-<p>Genre <input name="Genre"></p>
+Genre <input name="Genre"> <br>
 
 <button>Sturen</button>
 
