@@ -20,10 +20,8 @@ echo "<body style='background-color:".$_POST['achtergrond']."'>";
         echo "</tr>";
     }
 
-    $info1 = array("key"=>"value");
-    $info2 = array("naam"=>"arman");
-    $info3 = array("leeftijd"=>"16");
-    $info4 = array("klas"=>"1D");
+       $info1 = array("key"=>"value", "naam"=>"arman", "leeftijd"=>"16", "klas"=>"1D");
+
 
 
     echo "<table style='border:  ".$_POST['border-dikte']."px solid' width='300' cellspacing='0'>";
@@ -33,17 +31,6 @@ foreach($info1 as $idk =>$idk2){
     maakRij($idk, $idk2);
 }
 
-foreach($info2 as $idk =>$idk2){
-    maakRij($idk, $idk2);
-}
-   
-foreach($info3 as $idk =>$idk2){
-    maakRij($idk, $idk2);
-}
-
-foreach($info4 as $idk =>$idk2){
-    maakRij($idk, $idk2);
-}
     echo "</table>"
 
 ?>
